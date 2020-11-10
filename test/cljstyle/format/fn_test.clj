@@ -2,7 +2,7 @@
   (:require
     [cljstyle.format.fn :as fn]
     [cljstyle.test-util]
-    [clojure.test :refer [deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest function-forms

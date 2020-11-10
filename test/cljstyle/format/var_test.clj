@@ -2,7 +2,7 @@
   (:require
     [cljstyle.format.var :as var]
     [cljstyle.test-util]
-    [clojure.test :refer [deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest var-defs

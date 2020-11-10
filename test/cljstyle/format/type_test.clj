@@ -2,7 +2,7 @@
   (:require
     [cljstyle.format.type :as type]
     [cljstyle.test-util]
-    [clojure.test :refer [deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest protocol-definitions

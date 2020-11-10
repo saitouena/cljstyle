@@ -2,7 +2,7 @@
   (:require
     [cljstyle.format.whitespace :as ws]
     [cljstyle.test-util]
-    [clojure.test :refer [deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest surrounding-whitespace

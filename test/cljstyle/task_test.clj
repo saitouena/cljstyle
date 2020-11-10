@@ -5,7 +5,7 @@
     [cljstyle.test-util :refer [with-files capture-io]]
     [clojure.java.io :as io]
     [clojure.string :as str]
-    [clojure.test :refer [use-fixtures deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (use-fixtures :once #(binding [task/*suppress-exit* true] (%)))

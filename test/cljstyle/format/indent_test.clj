@@ -2,7 +2,7 @@
   (:require
     [cljstyle.format.indent :as indent]
     [cljstyle.test-util]
-    [clojure.test :refer [deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest list-indentation

@@ -3,7 +3,7 @@
     [cljstyle.config :as config]
     [cljstyle.test-util :refer [with-files]]
     [clojure.java.io :as io]
-    [clojure.test :refer [deftest testing is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest setting-specs

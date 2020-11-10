@@ -2,7 +2,7 @@
   (:require
     [cljstyle.format.line :as line]
     [cljstyle.test-util]
-    [clojure.test :refer [deftest is]]))
+    [clojure.test :refer :all]))
 
 
 (deftest consecutive-blank-lines

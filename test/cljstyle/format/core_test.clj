@@ -5,7 +5,7 @@
     [cljstyle.format.zloc :as zl]
     [cljstyle.test-util]
     [clojure.string :as str]
-    [clojure.test :refer [deftest testing is]]
+    [clojure.test :refer :all]
     [rewrite-clj.parser :as parser]
     [rewrite-clj.zip :as z]))
 
